@@ -39,7 +39,7 @@ KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_dow
 
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_chrony_utc
-FILESYSTEM=filesystem/gpt_ext4
+FILESYSTEM=filesystem/mbr_default.sh
 BOOTLOADER=bootloader/efi_gummiboot
 NETWORK=network/wired_wireless_minimal
 AUDIO=common/audio_alsa
